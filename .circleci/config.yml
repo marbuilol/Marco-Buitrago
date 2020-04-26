@@ -1,0 +1,15 @@
+#include<stdio.h>
+int base, altura;
+float superficie;
+float perímetro;
+main(){
+printf("introduce la base:");
+scanf("%d",&base);
+printf("introduce la altura:");
+scanf("%d",&altura);
+superficie = base*altura;
+perímetro = base + altura;
+printf("la superfice es %f", superficie);
+printf("\n presione intro para salir");
+scanf("%c""");
+}
